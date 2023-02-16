@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp $CFILE > $(echo "$CFILE" | sed 's/.c/.o/g')
+gcc -c $CFILE > $(echo "$CFILE" | sed 's/.c/.o/g')
