@@ -12,6 +12,8 @@ for( i = 0; i < ( int)sizeof( s); i++)
 {
 putchar(s[i]);
 }
-//putchar('\n');
+/*
+ * putchar('\n');
+ */
 return (1);
 }
