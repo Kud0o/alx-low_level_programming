@@ -22,11 +22,10 @@ int main(void)
 		{
 			for (k = i; k < 58; k++)
 			{
-				for (l = j+1; l < 58; l++)
+				for (l = j + 1; l < 58; l++)
 				{
-					if (1)
+					if (k > l)
 					{
-					
 						if (new == 0)
 						{
 							putchar(',');
