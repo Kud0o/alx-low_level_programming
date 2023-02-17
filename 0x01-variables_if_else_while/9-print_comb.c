@@ -11,16 +11,16 @@
 int main(void)
 {
 	int c = 48;
-	bool new = true;
+	int  new = 1;
 
 	while (c <= 57)
 	{
-		if (!new)
+		if (new == 0)
 		{
 		putchar(',');
 		putchar(' ');
 		}
-		new = false;
+		new = 0;
 		putchar(c++);
 	}
 	putchar('\n');
