@@ -26,18 +26,18 @@ int main(void)
 				{
 					if (k > l)
 					{
-						if (new == 0)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-						putchar(i);
-						putchar(j);
+					if (new == 0)
+					{
+						putchar(',');
 						putchar(' ');
-						putchar(k);
-						putchar(l);
 					}
-				new = 0;
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(k);
+					putchar(l);
+					new = 0;
+					}
 				}
 			}
 		}
