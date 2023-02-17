@@ -13,7 +13,7 @@ int main(void)
 	char c = 'a';
 
 	while (c <= 'z')
-	{	if (a == 'q' || a == 'e')
+	{	if (c == 'q' || c == 'e')
 		{continue;
 		}
 		putchar(c++);
