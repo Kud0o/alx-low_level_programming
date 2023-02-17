@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	char c = '0';
+	int c = 30;
 
-	while (c <= '9')
+	while (c <= 39)
 	{putchar(c++);
 	}
 	putchar('\n');
