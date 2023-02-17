@@ -18,13 +18,13 @@ int main(void)
 	{
 		for (j = 48; j < 58; j++)
 		{
-			if (new == 0)
-			{
-			putchar(',');
-			putchar(' ');
-			}
 			if (i <= j)
 			{
+				if (new == 0)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 				putchar(i);
 				putchar(j);
 			}
