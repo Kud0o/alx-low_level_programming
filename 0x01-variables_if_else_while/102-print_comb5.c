@@ -24,7 +24,7 @@ int main(void)
 			{
 				for (l = j + 1; l < 58; l++)
 				{
-					if (k < l)
+					if (1)
 					{
 					if (new == 0)
 					{
