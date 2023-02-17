@@ -10,13 +10,17 @@
 
 int main(void)
 {
-	int c = 49;
+	int c = 48;
+	bool new = true;
 
-	putchar(48);
 	while (c <= 57)
 	{
+		if (!new)
+		{
 		putchar(',');
 		putchar(' ');
+		}
+		new = false;
 		putchar(c++);
 	}
 	putchar('\n');
