@@ -14,9 +14,9 @@ int main(void)
 	int i = 48;
 	int j = 48;
 
-	for (i = 48; i < (int)sizeof(s) - 1; i++)
+	for (i = 48; i < 58; i++)
 	{
-		for (j = 48; j < (int)sizeof(s) - 1; j++)
+		for (j = 48; j < 58; j++)
 		{
 			if (new == 0)
 			{
