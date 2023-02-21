@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -10,11 +11,6 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	print_alphabet();
 	return (0);
-}
-
-void print_alphabet()
-{
-	printf("abcdefghijklmnopqrstuvwxyz\n");
 }
