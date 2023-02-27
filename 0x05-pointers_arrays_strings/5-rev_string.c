@@ -24,9 +24,9 @@ for (i = 0; i < c; i++)
 	ss[i] = s[c - 1 - i];
 	}
 for (i = 0; i < c; i++)
-        {
-        s[i] = ss[i];
-        }
+	{
+	s[i] = ss[i];
+	}
 
 
 }
