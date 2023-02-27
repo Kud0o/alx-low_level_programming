@@ -10,6 +10,7 @@ void rev_string(char *s)
 {
 int c = 0;
 int i = 0;
+char ss[1000];
 while (1)
 {
 	if (s[i++] == '\0')
@@ -18,10 +19,14 @@ while (1)
 		}
 	c++;
 }
-char ss[c];
 for (i = 0; i < c; i++)
 	{
 	ss[i] = s[c - 1 - i];
 	}
-s  = ss;
+for (i = 0; i < c; i++)
+        {
+        s[i] = ss[i];
+        }
+
+
 }
