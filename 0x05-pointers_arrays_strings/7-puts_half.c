@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <cmath.h>
 /**
- * puts_half - printing half  string 
+ * puts_half - printing half string
  * @s: char pointer
  * Return: void
 */
@@ -19,10 +20,11 @@ while (1)
 	c++;
 }
 
-for (i = c/2; i < c; i++)
+for (i = ceil(c / 2); i < c; i++)
 	{
 	_putchar(s[i]);
 	}
+
 _putchar('\n');
 
 }
