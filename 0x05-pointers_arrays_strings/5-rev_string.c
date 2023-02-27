@@ -22,7 +22,7 @@ while (1)
 
 for (i = 0; i < c; i++)
 	{
-	ss[i] = s[c - 1 - i]);
+	ss[i] = s[c - 1 - i];
 	}
 
 }
