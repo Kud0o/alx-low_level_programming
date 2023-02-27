@@ -8,15 +8,17 @@
 
 void _puts(char *s)
 {
-puts(s);
 int i = 0;
 while (1)
 {
-	_putchar(s[i]);
 	if (s[i++] == '\0')
 	{
 		_putchar('\n');
 		break;
+	}
+	else
+	{
+		_putchar(s[i]);
 	}
 }
 }
