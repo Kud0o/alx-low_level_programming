@@ -20,7 +20,7 @@ while (1)
 	c++;
 }
 
-for (i = ceil(c / 2); i < c; i++)
+for (i = floor(c / 2); i < c; i++)
 	{
 	_putchar(s[i]);
 	}
