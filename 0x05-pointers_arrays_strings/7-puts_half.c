@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <cmath.h>
+#include "math.h"
 /**
  * puts_half - printing half string
  * @s: char pointer
