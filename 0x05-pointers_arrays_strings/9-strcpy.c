@@ -8,7 +8,7 @@
  * Return: char pointer
 */
 
-char * _strcpy(char *s, char * a)
+char *_strcpy(char *s, char * a)
 {
 strcpy(s, a);
 
