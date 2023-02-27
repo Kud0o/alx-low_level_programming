@@ -5,7 +5,7 @@
  * Return: void
 */
 
-void _strlen(char *s)
+void _puts(char *s)
 {
 puts(s);
 }
