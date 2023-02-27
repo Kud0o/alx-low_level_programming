@@ -5,12 +5,13 @@
  * _strcpy - printing numbers
  * @s: char pointer
  * @a: int
- * Return: void
+ * Return: char pointer
 */
 
-void _strcpy(char *s, char * a)
+char * _strcpy(char *s, char * a)
 {
 int i = 0;
 strcpy(s, a);
 
+return (s);
 }
