@@ -10,7 +10,6 @@ void print_rev(char *s)
 {
 int c = 0;
 int i = 0;
-char *ss = s;
 while (1)
 {
 	if (s[i++] == '\0')
@@ -22,8 +21,8 @@ while (1)
 
 for (i = 0; i < c; i++)
 	{
-	ss[c - 1 - i] = s[i];
+	_putchar(s[c - 1 - i]);
 	}
-printf(ss);
+_putchar('\n');
 
 }
