@@ -9,7 +9,7 @@
 
 void puts_half(char *s)
 {
-int c = 0;
+double c = 0;
 int i = 0;
 while (1)
 {
@@ -20,7 +20,7 @@ while (1)
 	c++;
 }
 
-for (i = ceil((double)c / 2); i < c; i++)
+for (i = ceil(c / 2); i < c; i++)
 	{
 	_putchar(s[i]);
 	}
