@@ -11,7 +11,7 @@ void _puts(char *s)
 int i = 0;
 while (1)
 {
-	if (s[i++] == '\0')
+	if (s[i] == '\0')
 	{
 		_putchar('\n');
 		break;
@@ -19,6 +19,7 @@ while (1)
 	else
 	{
 		_putchar(s[i]);
+		i++;
 	}
 }
 }
