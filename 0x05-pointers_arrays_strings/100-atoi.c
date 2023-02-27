@@ -37,5 +37,5 @@ i++;
 }
 
 
-return (res);
+return (res * sign);
 }
