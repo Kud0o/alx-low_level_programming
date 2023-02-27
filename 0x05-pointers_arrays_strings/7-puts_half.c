@@ -20,7 +20,7 @@ while (1)
 	c++;
 }
 
-for (i = ceil((float)c / 2); i < c; i++)
+for (i = ceil((double)c / 2); i < c; i++)
 	{
 	_putchar(s[i]);
 	}
