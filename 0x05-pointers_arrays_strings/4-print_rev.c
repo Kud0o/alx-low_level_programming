@@ -14,15 +14,15 @@ char *ss = s;
 while (1)
 {
 	if (s[i++] == '\0')
-	{
+		{
 		break;
-	}
+		}
 	c++;
 }
 
-for(i = 0;i < c;i++)
+for (i = 0; i < c; i++)
 	{
-		ss[c-1-i] = s[i];
+	ss[c - 1 - i] = s[i];
 	}
 puts(ss);
 
