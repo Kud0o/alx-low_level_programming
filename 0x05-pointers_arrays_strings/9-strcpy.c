@@ -10,7 +10,6 @@
 
 char * _strcpy(char *s, char * a)
 {
-int i = 0;
 strcpy(s, a);
 
 return (s);
