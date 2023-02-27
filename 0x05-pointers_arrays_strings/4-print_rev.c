@@ -24,6 +24,6 @@ for (i = 0; i < c; i++)
 	{
 	ss[c - 1 - i] = s[i];
 	}
-puts(ss);
+printf(ss);
 
 }
