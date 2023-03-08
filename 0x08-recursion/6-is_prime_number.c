@@ -8,7 +8,7 @@
  */
 int _is_prime_helper(int n, int x)
 {
-	if (n <= 1)
+	if (n == 1)
 	{
 		return (1);
 	}
@@ -17,9 +17,7 @@ int _is_prime_helper(int n, int x)
 		return (1 && _is_prime_helper(n, x - 1));
 	}
 
-	return (0);
-
-	
+return (0);
 }
 
 /**
@@ -29,6 +27,10 @@ int _is_prime_helper(int n, int x)
  */
 int is_prime_number(int n)
 {
-	return _is_prime_helper(n, n - 1);
+	if (n <= 1)
+	{
+		return (0);
+	}
+	return (_is_prime_helper(n, n - 1));
 }
 
