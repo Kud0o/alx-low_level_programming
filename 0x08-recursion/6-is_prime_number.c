@@ -9,11 +9,18 @@
 int _is_prime_helper(int n, int x)
 {
 	if (n <= 1)
+	{
 		return (1);
+	}
 	if (n % x != 0)
+	{
 		return (1 && _is_prime_helper(n, x - 1));
+	}
 	if (n % x  == 0)
+	{
 		return (0);
+
+	}
 }
 
 /**
