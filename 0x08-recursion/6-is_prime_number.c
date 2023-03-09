@@ -8,7 +8,7 @@
  */
 int _is_prime_helper(int n, int x)
 {
-	if (n == 1)
+	if (x == 1)
 	{
 		return (1);
 	}
