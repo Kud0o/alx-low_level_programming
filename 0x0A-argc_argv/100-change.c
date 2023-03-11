@@ -23,6 +23,12 @@ int main(int argc, char *argv[])
 	else
 	{
 	n = atoi(argv[1]);
+	
+	if (n < 0)
+	{
+		printf("%d\n", 0);
+		return (0);
+	}
 	coins += n / 25;
 	n = n % 25;
 	coins += n / 10;
